@@ -1,0 +1,76 @@
+@page "/edituser"
+
+@inject UserServices service
+
+<div class="container">
+    <div class="col-5 bg-light m-2 justify-content-end">
+        <div class="p-3 mb-1 bg-primary text-white text-center">Update User Form</div>
+
+            <EditForm Model="@UpdateProduct">
+                <div class="form-group">
+                    <label for="name">User Name</label>
+                    <input type="text" id="name" class="form-control" @bind-value="@UpdateProduct.Name" />
+                </div>
+
+                <div class="form-group">
+                    <label for="price">User ID</label>
+                    <input type="text" id="price" class="form-control" @bind="@UpdateProduct.UserId" />
+                </div>
+
+                <div class="form-group">
+                    <label for="quantity">SSN</label>
+                    <input type="text" id="quantity" class="form-control" @bind="@UpdateProduct.SSN" />
+                </div>
+
+                <div class="form-group">
+                    <label for="Description">Hourly Pay Rate</label>
+                    <input type="text" id="Description" class="form-control" @bind="@UpdateProduct.HourlyPay" />
+                </div>
+
+                <div class="text-center p-3 mb-3">
+                    <button class="btn btn-info" @onclick="UpdateProductData"> Update User</button>
+                </div>
+            </EditForm>
+        
+    </div>
+</div>
+
+@code {
+
+    List<User> Products = new List<User>();
+    protected override async Task OnInitializedAsync()
+    {
+        await RefreshProducts();
+    }
+
+    private async Task RefreshProducts()
+    {
+        Products = await service.GetUserAsync();
+    }
+
+    public User NewProduct { get; set; } = new User();
+    private async Task AddNewProduct()
+    {
+        await service.AddUserAsync(NewProduct);
+        NewProduct = new User();
+        await RefreshProducts();
+    }
+
+    User UpdateProduct = new User();
+    private void SetProductForUpdate(User product)
+    {
+        UpdateProduct = product;
+    }
+
+    private async Task UpdateProductData()
+    {
+        await service.UpdateUserAsync(UpdateProduct);
+        await RefreshProducts();
+    }
+    @*
+    private async Task DeleteProduct(Product product)
+    {
+        await service.DeleteProductAsync(product);
+        await RefreshProducts();
+    }  *@
+}

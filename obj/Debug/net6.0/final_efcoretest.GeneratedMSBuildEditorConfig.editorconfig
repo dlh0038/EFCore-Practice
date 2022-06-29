@@ -1,0 +1,64 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = final_efcoretest
+build_property.RootNamespace = final_efcoretest
+build_property.ProjectDir = C:\Users\dhood\OneDrive - Federal Bureau of Investigation\Documents\final_efcoretest\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\dhood\OneDrive - Federal Bureau of Investigation\Documents\final_efcoretest
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/dhood/OneDrive - Federal Bureau of Investigation/Documents/final_efcoretest/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dhood/OneDrive - Federal Bureau of Investigation/Documents/final_efcoretest/Pages/AddUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dhood/OneDrive - Federal Bureau of Investigation/Documents/final_efcoretest/Pages/DeleteUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dhood/OneDrive - Federal Bureau of Investigation/Documents/final_efcoretest/Pages/EditUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFVzZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dhood/OneDrive - Federal Bureau of Investigation/Documents/final_efcoretest/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dhood/OneDrive - Federal Bureau of Investigation/Documents/final_efcoretest/Pages/ViewDB.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld0RCLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dhood/OneDrive - Federal Bureau of Investigation/Documents/final_efcoretest/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dhood/OneDrive - Federal Bureau of Investigation/Documents/final_efcoretest/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-8kxsj39a31
+
+[C:/Users/dhood/OneDrive - Federal Bureau of Investigation/Documents/final_efcoretest/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jfpidea2d7
+
+[C:/Users/dhood/OneDrive - Federal Bureau of Investigation/Documents/final_efcoretest/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dhood/OneDrive - Federal Bureau of Investigation/Documents/final_efcoretest/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dhood/OneDrive - Federal Bureau of Investigation/Documents/final_efcoretest/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
