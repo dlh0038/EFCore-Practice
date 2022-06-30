@@ -111,39 +111,6 @@
         }
       },
       {
-        "HashCode": 1295849549,
-        "Kind": "Components.Component",
-        "Name": "final_efcoretest.Pages.ViewDB",
-        "AssemblyName": "final_efcoretest",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ViewDB"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "final_efcoretest.Pages.ViewDB"
-        }
-      },
-      {
-        "HashCode": -104300970,
-        "Kind": "Components.Component",
-        "Name": "final_efcoretest.Pages.ViewDB",
-        "AssemblyName": "final_efcoretest",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "final_efcoretest.Pages.ViewDB"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "final_efcoretest.Pages.ViewDB",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 217146057,
         "Kind": "Components.Component",
         "Name": "final_efcoretest.Pages.DeleteUser",
@@ -173,6 +140,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "final_efcoretest.Pages.DeleteUser",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1295849549,
+        "Kind": "Components.Component",
+        "Name": "final_efcoretest.Pages.ViewDB",
+        "AssemblyName": "final_efcoretest",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ViewDB"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "final_efcoretest.Pages.ViewDB"
+        }
+      },
+      {
+        "HashCode": -104300970,
+        "Kind": "Components.Component",
+        "Name": "final_efcoretest.Pages.ViewDB",
+        "AssemblyName": "final_efcoretest",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "final_efcoretest.Pages.ViewDB"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "final_efcoretest.Pages.ViewDB",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
