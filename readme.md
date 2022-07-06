@@ -1,3 +1,3 @@
 # Blazor Pages with EFCore and SQLiteDB
 
-!(screenshot)[/example screenshot.png]
+!(screenshot)[/example%20screenshot.PNG]
